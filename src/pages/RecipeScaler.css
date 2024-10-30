@@ -1,0 +1,129 @@
+/* Main Recipe Scaler Container */
+.recipe-scaler {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #4a206e; /* Deep purple background */
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.recipe-scaler h2 {
+    font-size: 1.8em;
+    color: #ff6baf; /* Pinkish-orange for title */
+    margin-bottom: 15px;
+}
+
+/* Servings Section */
+.servings-input {
+    background-color: #4dc6d1; /* Teal background for serving section */
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.servings-input label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.servings-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Measurement System Selector */
+.measurement-system {
+    margin: 15px 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.measurement-system select {
+    width: 120px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Ingredient Input Section */
+.new-ingredient-input {
+    background-color: #4dc6d1; /* Teal background for ingredients section */
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.new-ingredient-input input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+.new-ingredient-input select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Add Ingredient Button */
+.new-ingredient-input button {
+    padding: 10px 15px;
+    background-color: #4a206e;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.new-ingredient-input button:hover {
+    background-color: #3a1554;
+}
+
+/* Scale Recipe Button */
+.scale-recipe-button {
+    background-color: #dcb8ff; /* Light purple button */
+    color: #4a206e;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.scale-recipe-button:hover {
+    background-color: #c19edf;
+}
+
+/* Scaled Ingredients List */
+.scaled-ingredients-list {
+    margin-top: 20px;
+    background-color: #4a206e;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.ingredient-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    color: #ffffff;
+}

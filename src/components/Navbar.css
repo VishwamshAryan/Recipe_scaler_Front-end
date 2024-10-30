@@ -1,0 +1,29 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #4a206e; /* Navbar background color */
+    padding: 10px; /* Padding for the navbar */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* No padding for the list */
+    margin: 0; /* No margin for the list */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+  }
+  
+  .navbar ul li {
+    margin: 0 15px; /* Spacing between menu items */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+  }
+  
+  .navbar ul li a:hover {
+    color: #ecf0f1; /* Lighter shade on hover */
+  }
+  
